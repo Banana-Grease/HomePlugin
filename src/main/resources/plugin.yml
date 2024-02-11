@@ -1,0 +1,14 @@
+name: HomePlugin
+version: '${project.version}'
+main: me.oscarcusick.homeplugin.HomePlugin
+api-version: '1.20'
+commands:
+  sethome:
+    description: "Sets a home where the player currently is, can be teleported through via the command /home"
+  home:
+    description: "Teleports the play to a home they have already previously created"
+  removehome:
+    description: "Deletes a home previously set"
+  reset:
+    permission: op
+    description: "Resets all Persistent Data Containers made by the plugin"
